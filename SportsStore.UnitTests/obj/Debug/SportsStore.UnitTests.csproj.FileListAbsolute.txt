@@ -1,0 +1,1 @@
+C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csprojAssemblyReference.cache
