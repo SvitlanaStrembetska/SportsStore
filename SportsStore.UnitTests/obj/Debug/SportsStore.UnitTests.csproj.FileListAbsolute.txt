@@ -46,3 +46,6 @@ C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\Newtonsof
 C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csproj.CopyComplete
 C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.dll
 C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.pdb
+C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\SportsStore\SportsStore.UnitTests\bin\Debug\EntityFramework.xml
