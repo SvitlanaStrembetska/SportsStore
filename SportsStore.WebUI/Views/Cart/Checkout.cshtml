@@ -7,13 +7,14 @@
 
 @using (Html.BeginForm())
 {
-
+    @Html.ValidationSummary()
     <h3>Ship to</h3>
     <div class="form-group">
         <label>Name:</label>
         @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
     </div>
     <h3>Address</h3>
+
     foreach (var property in ViewData.ModelMetadata.Properties)
     {
         if (property.PropertyName != "Name" && property.PropertyName != "GiftWrap")
@@ -24,6 +25,7 @@
             </div>
         }
     }
+
     <h3>Options</h3>
     <div class="checkbox">
         <label>
