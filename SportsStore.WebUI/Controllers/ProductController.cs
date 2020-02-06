@@ -30,10 +30,11 @@ namespace SportsStore.WebUI.Controllers
                     ItemsPerPage = PageSize,
                     TotalItems = category == null ?
                         _repository.Products.Count() :
-                        _repository.Products.Where(e => e.Category == category).Count()
+                        _repository.Products.Count(e => e.Category == category)
                 },
                 CurrentCategory = category
             };
+
             return View(model);
         }
     }
